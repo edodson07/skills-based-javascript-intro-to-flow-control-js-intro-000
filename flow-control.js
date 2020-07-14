@@ -14,8 +14,10 @@ function teenager(age)
     if(age <= 19 && age >= 13 )                 // True Statement
       {  return "You are a teenager!"}
 
-    else                                        // false
+    else if ( age > 19 || age < 13 )          // False Statement
       { return "You are not a teenager"}
+    //else                                        // false
+      //{ return "You are not a teenager"}
 
   }
 
